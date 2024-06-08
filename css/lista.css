@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #201463;
+}
+
+h1{
+    margin-top: 40px;
+    color: white;
+}
+
+
+
+table{
+    text-align: center;
+    margin-top: 40px;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+
+}
+
+thead{
+    background: #5243a5;
+    color: white;
+}
+
+tbody > tr:nth-child(2n){
+  background-color: rgb(225, 225, 248);
+}
+
+td{
+  padding: 10px;
+}
+
+
+
+button{
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+a{
+    margin-top: 40px;
+}
+
+h2{
+    margin: 40px 0px 40px 0px;
+    font-size: 30PX;
+}
+
+#lista{
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 40px;
+  width: 400px;  
+  text-align: center;
+  display: none;
+  background-color: white;
+  box-shadow: 0px 0px 20px #bebebe;
+}
+
+.input_group{
+  
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+.input_group > input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container_btn{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.container_btn > button{
+    padding: 10px;
+    width: 34.5%;
+}
+.btn_deletar{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

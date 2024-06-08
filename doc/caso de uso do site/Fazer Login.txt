@@ -1,0 +1,47 @@
+Fazer Login:
+Ator: Usuário
+Descrição: O usuário acessa a página de login e insere suas credenciais para autenticação.
+Fluxo:
+O usuário clica no botão “Fazer login”.
+O sistema exibe o formulário de login.
+O usuário insere seu nome de usuário e senha.
+O sistema verifica as credenciais e permite o acesso se forem válidas.
+Cadastrar-se:
+Ator: Usuário
+Descrição: O usuário cria uma nova conta no site.
+Fluxo:
+O usuário clica no botão “Cadastrar-se”.
+O sistema exibe o formulário de registro.
+O usuário preenche os campos obrigatórios (nome, e-mail, senha, etc.).
+O sistema valida os dados e cria a conta.
+Visualizar Produtos:
+Ator: Usuário
+Descrição: O usuário navega pela lista de produtos disponíveis no site.
+Fluxo:
+O usuário acessa a página de produtos.
+O sistema exibe a lista de produtos com detalhes (nome, preço, descrição, etc.).
+Adicionar ao Carrinho:
+Ator: Usuário
+Descrição: O usuário seleciona produtos para adicionar ao carrinho de compras.
+Fluxo:
+O usuário visualiza um produto.
+O sistema exibe a opção “Adicionar ao carrinho”.
+O usuário clica na opção para adicionar o produto ao carrinho.
+Finalizar Compra:
+Ator: Usuário
+Descrição: O usuário conclui a compra dos produtos no carrinho.
+Fluxo:
+O usuário acessa o carrinho de compras.
+O sistema exibe os produtos selecionados.
+O usuário confirma os itens e clica em “Finalizar compra”.
+Voltar à Página Anterior:
+Ator: Usuário
+Descrição: O usuário retorna à página anterior.
+Fluxo:
+O usuário clica no botão “Voltar” ou usa a navegação do navegador.
+Recuperar Senha:
+Ator: Usuário
+Descrição: O usuário solicita a recuperação da senha.
+Fluxo:
+O usuário clica na opção “Esqueci minha senha”.
+O sistema envia um e-mail com instruções para redefinir a senha.

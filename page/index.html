@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <script async src="/js/loja.js"></script>
+   <script  async src="/js/carrinho.js"></script>
+   <link rel="stylesheet" href="/css/index.css">
+   
+    <title>Loja</title>
+
+    <script type="module" src="./user-dao.js"></script>
+</head>
+<body>
+</head>
+<body>
+
+
+  <header>
+
+    <header><div>
+      <h1>Casa de Perfumes</h1>
+      <div>
+      <img src="/img/capa.jpg" alt=""  style="height: 200px" width=" 1400px">
+    </div>
+    </div>
+      
+  </header>
+    <div class="center">
+    <div class="logu"></div>
+    <ul id="menu" class="menu">
+<div>
+
+    <ul>
+      <li><a href="/page/login.html">Login</a></li>
+      </ul>
+    
+      <li><a href="/page/cadastro_loja.html">Cadastro</a> </li>
+      
+      <li><a href="/page/lista.html">lista</a> </li>
+    </ul>
+ </div>   
+
+      
+   
+    <div id="user"></div>
+  </div>
+  </header>
+
+<div class="grade">
+  <h1 class="title">Produtos</h1>
+
+  <main class="main-section">
+    <section class="container normal-section">
+      
+
+      <div class=" products-container">
+        <div class="grade-product">
+          <strong class="product-title">Perfume Arabes</strong>
+          <!-- <br> -->
+          <img src="/img/arabes.jpg" alt="arabes" style="width: 140px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$999,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+        <div class="grade-product">
+          <strong class="product-title">Perfume Agua</strong>
+          <!-- <br> -->
+          <img src="/img/agua.webp" alt="agua" style="width: 270px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$2039,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="grade-product">
+          <strong class="product-title">Perfume Alladin</strong>
+          <!-- <br> -->
+          <img src="/img/alladin.jpg" alt="alladin" style="width: 270px; height: 180px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$1199,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="grade-product">
+          <strong class="product-title">Perfume Cairo</strong>
+          <!-- <br> -->
+          <img src="/img/cairo.jpg" alt="cairo" style="width: 270px; height: 180px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$1179,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class=" products-container">
+        <div class="grade-product">
+          <strong class="product-title">Perfume Flower</strong>
+          <!-- <br> -->
+          <img src="/img/flower-bom.jpg" alt="flower-bom" style="width: 200px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$999,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+        <div class="grade-product">
+          <strong class="product-title">Perfume Granado</strong>
+          <!-- <br> -->
+          <img src="/img/granado.webp" alt="granado" style="width: 220px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$2039,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+        <div class="grade-product">
+          <strong class="product-title">Perfume Iluminate </strong>
+          <!-- <br> -->
+          <img src="/img/iluminate.jpg" alt="iluminate" style="width: 160px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$1199,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+
+        <div class="grade-product">
+          <strong class="product-title">Perfume Rosa F</strong>
+          <!-- <br> -->
+          <img src="/img/rosaff.jpg" alt="rosaff" style="width: 180px;" class="product-image">
+          <div class="product-price-container">
+            <span class="product-price">R$2379,99</span>
+            <button type="button" class="button-hover-background">Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+      
+    
+ 
+    </section>
+
+
+
+    <section class="container normal-section">
+      <h2 class="section-title">Carrinho</h2>
+
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th class="table-head-item first-col"></th>
+            <th class="table-head-item second-col"></th>
+            <th class="table-head-item third-col"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3" class="cart-total-container">
+              <strong></strong>
+              <span></span>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <button type="button" class="purchase-button">Finalizar Comprar</button>
+    </section>
+  </main>
+  
+</div>
+<script src="/js/login.js"></script>
+
+
+</body>
+</html>

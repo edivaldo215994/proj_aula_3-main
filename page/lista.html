@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/lista.css">
+    <title>Lista</title>
+
+   
+</head>
+<body>
+    <h1>USUARIOS LOCALSTORAGE</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>id</td>
+                <td>nome</td>
+                <td>email</td>
+                <td>ações</td>
+            </tr>
+        </thead>
+        <tbody id="tabela">
+        </tbody>
+    </table>
+    <form id="lista">
+        <h2>ATUALIZAR</h2>
+        <div class="input_group">
+            <input id="nome" type="text" placeholder="nome">
+        </div>
+        <div class="input_group">
+            <input id="email" type="text" placeholder="email">
+        </div>
+        <div class="input_group">
+            <input id="senha" type="password" placeholder="senha">
+        </div>
+        <div class="container_btn">
+             <button id="btn_atualiazar" type="button">atualizar</button>
+             <button >cancelar</button>
+        </div>
+        
+    </form>
+   
+    <a href="./index.html">voltar a tela de login</a>
+
+    <script src="/js/lista.js"></script>
+</body>
+</html>
